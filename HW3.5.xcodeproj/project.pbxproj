@@ -65,13 +65,13 @@
 			isa = PBXGroup;
 			children = (
 				0A1A6C342677EADB00E94436 /* HW3_5App.swift */,
-				0A1A6C452677EF2300E94436 /* DataManager.swift */,
+				0A22CF0A267A02F00021C71D /* Services */,
 				0A1A6C362677EADB00E94436 /* HomeScreenView.swift */,
 				0A1A6C472677EFA600E94436 /* ContactsView.swift */,
 				0A1A6C4B2677F35500E94436 /* DetailView.swift */,
 				0A1A6C4F2677FE5C00E94436 /* CustomTextView.swift */,
 				0A1A6C492677EFB400E94436 /* NumbersView.swift */,
-				0A1A6C432677EF0E00E94436 /* Person.swift */,
+				0A22CF0B267A02FE0021C71D /* Models */,
 				0A1A6C382677EADF00E94436 /* Assets.xcassets */,
 				0A1A6C3D2677EADF00E94436 /* Info.plist */,
 				0A1A6C3A2677EADF00E94436 /* Preview Content */,
@@ -85,6 +85,22 @@
 				0A1A6C3B2677EADF00E94436 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0A22CF0A267A02F00021C71D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0A1A6C452677EF2300E94436 /* DataManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		0A22CF0B267A02FE0021C71D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0A1A6C432677EF0E00E94436 /* Person.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
