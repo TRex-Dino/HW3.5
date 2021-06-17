@@ -20,7 +20,7 @@ struct NumbersView: View {
                         CustomTextView(phoneNumber: person.email,
                                        imageName: "envelope.open")
                     }
-                    .textCase(nil)
+                    .textCase(.none)
                 }
             }
             .navigationBarTitle("Contact List")
