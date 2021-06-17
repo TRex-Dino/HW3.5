@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContactsView: View {
-    let persons = Person.getContactList()
+    let persons: [Person]
     
     var body: some View {
         NavigationView {
@@ -24,6 +24,6 @@ struct ContactsView: View {
 
 struct ContactsView_Previews: PreviewProvider {
     static var previews: some View {
-        ContactsView()
+        ContactsView(persons: Person.getContactList())
     }
 }

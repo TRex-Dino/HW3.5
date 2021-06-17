@@ -8,19 +8,18 @@
 import SwiftUI
 
 struct DetailView: View {
-    private let person: Person
+    let person: Person
     
     var body: some View {
         Form {
-            Section {
-                ImagePerson()
-                CustomTextView(phoneNumber: person.phoneNumber,
-                               imageName: "phone")
-                    .font(.title3)
-                CustomTextView(phoneNumber: person.email,
-                               imageName: "envelope.open")
-                    .font(.title3)
-            }
+            ImagePerson()
+            CustomTextView(phoneNumber: person.phoneNumber,
+                           imageName: "phone")
+                .font(.title3)
+            CustomTextView(phoneNumber: person.email,
+                           imageName: "envelope.open")
+                .font(.title3)
+            
         }
         .navigationTitle(person.fullName)
     }

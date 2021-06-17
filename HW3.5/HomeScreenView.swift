@@ -8,14 +8,16 @@
 import SwiftUI
 
 struct HomeScreenView: View {
+    private let persons = Person.getContactList()
+    
     var body: some View {
         TabView {
-            ContactsView()
+            ContactsView(persons: persons)
                 .tabItem {
                     Image(systemName: "person.3")
                     Text("Contacts")
                 }
-            NumbersView()
+            NumbersView(persons: persons)
                 .tabItem {
                     Image(systemName: "phone")
                     Text("Numbers")
